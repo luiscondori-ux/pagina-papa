@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Un Mensaje de Paz | El Papa</title>
+
+    <style>
+        /* CONFIGURACION GENERAL */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.7;
+        }
+
+        /* ENCABEZADO */
+        header {
+            background: linear-gradient(135deg, #f4cf52, #ffe89a);
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 4px solid #d9ad28;
+        }
+
+        header h1 {
+            font-size: 38px;
+            color: #39301a;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #5c4b22;
+            margin-top: 8px;
+        }
+
+        /* MENU DE NAVEGACION */
+        nav {
+            background-color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #66521e;
+            font-weight: bold;
+            margin: 0 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #c69b20;
+        }
+
+        /* SECCION PRINCIPAL */
+        .principal {
+            max-width: 1100px;
+            margin: 45px auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .imagen-papa {
+            flex: 1;
+        }
+
+        .imagen-papa img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .contenido {
+            flex: 1;
+        }
+
+        .contenido h2 {
+            font-size: 32px;
+            color: #b28a1d;
+            margin-bottom: 18px;
+        }
+
+        .contenido p {
+            font-size: 17px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        /* FRASE DESTACADA */
+        .mensaje {
+            background-color: #fff8df;
+            border-left: 6px solid #e4bd45;
+            padding: 25px;
+            margin: 30px auto;
+            max-width: 1000px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .mensaje h2 {
+            color: #9b781e;
+            margin-bottom: 10px;
+        }
+
+        .mensaje p {
+            font-size: 19px;
+            font-style: italic;
+        }
+
+        /* SECCION DE VALORES */
+        .valores {
+            padding: 45px 20px;
+            text-align: center;
+            background-color: #fafafa;
+        }
+
+        .valores h2 {
+            color: #b28a1d;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .contenedor-valores {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            padding: 25px;
+            width: 220px;
+            border-radius: 12px;
+            border-bottom: 4px solid #e5c14d;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+            transition: 0.3s;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-7px);
+        }
+
+        .tarjeta h3 {
+            color: #a17c1e;
+            margin-bottom: 10px;
+        }
+
+        /* PIE DE PAGINA */
+        footer {
+            background-color: #3c3525;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* DISEÑO RESPONSIVE */
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .principal {
+                flex-direction: column;
+                margin: 20px auto;
+            }
+
+            .contenido h2 {
+                font-size: 26px;
+            }
+
+            .tarjeta {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>UN MENSAJE DE PAZ</h1>
+        <p>Fe, esperanza, amor y fraternidad para toda la humanidad</p>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#mensaje">Mensaje de paz</a>
+        <a href="#valores">Nuestros valores</a>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <section class="principal" id="inicio">
+
+        <div class="imagen-papa">
+            <img src="papa.jpg"
+                 alt="Imagen referencial del Papa">
+        </div>
+
+        <div class="contenido">
+
+            <h2>La paz comienza en nuestros corazones</h2>
+
+            <p>
+                La paz es uno de los valores más importantes
+                para construir una sociedad justa, solidaria
+                y llena de esperanza.
+            </p>
+
+            <p>
+                El Papa nos invita a reflexionar sobre la
+                importancia del amor, el respeto, el perdón
+                y la unión entre todos los seres humanos.
+            </p>
+
+            <p>
+                Construir un mundo mejor depende de nuestras
+                acciones. Cada gesto de solidaridad puede
+                convertirse en una oportunidad para llevar
+                esperanza a quienes más lo necesitan.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MENSAJE DESTACADO -->
+    <section class="mensaje" id="mensaje">
+
+        <h2>Un llamado a la paz mundial</h2>
+
+        <p>
+            "Que la paz, el amor y la solidaridad
+            iluminen el camino de toda la humanidad."
+        </p>
+
+        <p>
+            Juntos podemos construir un mundo sin violencia,
+            lleno de respeto, comprensión y fraternidad.
+        </p>
+
+    </section>
+
+    <!-- VALORES -->
+    <section class="valores" id="valores">
+
+        <h2>Valores que construyen la paz</h2>
+
+        <div class="contenedor-valores">
+
+            <div class="tarjeta">
+                <h3>Amor</h3>
+                <p>
+                    Amar al prójimo y actuar con bondad
+                    hacia los demás.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Esperanza</h3>
+                <p>
+                    Mantener la fe en un futuro
+                    mejor para todos.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Solidaridad</h3>
+                <p>
+                    Ayudar a quienes necesitan apoyo
+                    y comprensión.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Unión</h3>
+                <p>
+                    Trabajar juntos para construir
+                    una sociedad en paz.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+        <p>
+            © 2026 - Un Mensaje de Paz
+        </p>
+
+        <p>
+            La paz comienza con nuestras acciones.
+        </p>
+
+    </footer>
+
+</body>
+</html>
